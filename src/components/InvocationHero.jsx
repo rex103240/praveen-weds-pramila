@@ -103,25 +103,15 @@ const InvocationHero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
           >
-            <p
-              style={{
-                fontFamily: 'var(--font-title)',
-                fontSize: '1.05rem',
-                color: 'var(--maroon-light)',
-                marginBottom: '4px'
-              }}
-            >
-              चि.कुँ.
-            </p>
             <h2
               style={{
                 fontFamily: 'var(--font-headline)',
-                fontSize: 'clamp(2.1rem, 5.8vw, 3rem)',
+                fontSize: 'clamp(1.85rem, 5.2vw, 2.7rem)',
                 color: 'var(--maroon-deep)',
-                lineHeight: 1.2
+                lineHeight: 1.25
               }}
             >
-              प्रवीण सिंह चौहान
+              चि.कुँ. प्रवीण सिंह चौहान
             </h2>
             <p
               style={{
@@ -164,25 +154,15 @@ const InvocationHero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            <p
-              style={{
-                fontFamily: 'var(--font-title)',
-                fontSize: '1.05rem',
-                color: 'var(--maroon-light)',
-                marginBottom: '4px'
-              }}
-            >
-              सौ.कां.
-            </p>
             <h2
               style={{
                 fontFamily: 'var(--font-headline)',
-                fontSize: 'clamp(2.1rem, 5.8vw, 3rem)',
+                fontSize: 'clamp(1.85rem, 5.2vw, 2.7rem)',
                 color: 'var(--maroon-deep)',
-                lineHeight: 1.2
+                lineHeight: 1.25
               }}
             >
-              प्रमिला कंवर [प्रियंका]
+              सौ.कां. प्रमिला कंवर [प्रियंका]
             </h2>
             <p
               style={{
@@ -192,7 +172,7 @@ const InvocationHero = () => {
                 marginTop: '6px'
               }}
             >
-              (लाडली श्रीमती विमला कंवर एवं श्री चैनसिंह जी सांखला · गांव खारड़ी, जिला-पाली)
+              (लाडली श्रीमती विमला कंवर एवं श्री चैनसिंह जी सांखला)
             </p>
           </motion.div>
 
