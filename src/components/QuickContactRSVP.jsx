@@ -6,8 +6,8 @@ const HINDI_CONTACTS = [
   {
     name: 'टीकम सिंह चौहान',
     role: 'व्यवस्थापक / RSVP',
-    phone: '+91 98765 43210',
-    cleanNumber: '919876543210'
+    phone: '+91 92569 30900',
+    cleanNumber: '919256930900'
   }
 ];
 
