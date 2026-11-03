@@ -135,10 +135,10 @@ const InvocationHero = () => {
             </p>
           </motion.div>
 
-          {/* संग / रो शुभ ब्याव */}
+          {/* संग */}
           <div
             style={{
-              margin: '22px auto',
+              margin: '20px auto',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -148,12 +148,12 @@ const InvocationHero = () => {
             <div style={{ height: 1, width: 50, background: 'linear-gradient(to right, transparent, var(--maroon-royal))' }} />
             <span
               style={{
-                fontFamily: 'var(--font-headline)',
-                fontSize: '1.6rem',
+                fontFamily: 'var(--font-title)',
+                fontSize: '1.8rem',
                 color: 'var(--maroon-royal)'
               }}
             >
-              रो शुभ ब्याव संग
+              संग
             </span>
             <div style={{ height: 1, width: 50, background: 'linear-gradient(to left, transparent, var(--maroon-royal))' }} />
           </div>
@@ -195,6 +195,21 @@ const InvocationHero = () => {
               (लाडली श्रीमती विमला कंवर एवं श्री चैनसिंह जी सांखला · गांव खारड़ी, जिला-पाली)
             </p>
           </motion.div>
+
+          {/* रो शुभ ब्याव - दोनों नामों के नीचे */}
+          <div style={{ marginTop: '24px', textAlign: 'center' }}>
+            <h3
+              style={{
+                fontFamily: 'var(--font-headline)',
+                fontSize: 'clamp(1.7rem, 4.8vw, 2.3rem)',
+                color: 'var(--maroon-royal)',
+                letterSpacing: '0.04em',
+                margin: 0
+              }}
+            >
+              रो शुभ ब्याव
+            </h3>
+          </div>
         </div>
 
         {/* ── लग्न मुहूर्त पट्टिका ── */}
