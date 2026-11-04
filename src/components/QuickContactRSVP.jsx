@@ -4,6 +4,12 @@ import { Phone, MessageCircle, User } from 'lucide-react';
 
 const HINDI_CONTACTS = [
   {
+    name: 'श्री विजयसिंह जी चौहान',
+    role: 'पिताश्री / विनीत',
+    phone: '+91 77421 38713',
+    cleanNumber: '917742138713'
+  },
+  {
     name: 'टीकम सिंह चौहान',
     role: 'व्यवस्थापक / RSVP',
     phone: '+91 92569 30900',
@@ -13,7 +19,7 @@ const HINDI_CONTACTS = [
 
 const QuickContactRSVP = () => (
   <section id="rsvp" style={{ padding: '20px 16px 60px' }}>
-    <div style={{ maxWidth: '640px', margin: '0 auto' }}>
+    <div style={{ maxWidth: '780px', margin: '0 auto' }}>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -74,11 +80,14 @@ const QuickContactRSVP = () => (
           ठा.सा. श्री भोमसिंहजी चौहान · श्री विजयसिंह जी चौहान एवं समस्त चौहान परिवार
         </p>
 
-        {/* Tikam Singh Chauhan Contact Card */}
+        {/* Contact Cards */}
         <div
           style={{
-            maxWidth: '380px',
+            maxWidth: '720px',
             margin: '0 auto',
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+            gap: '20px',
             textAlign: 'left',
             position: 'relative',
             zIndex: 2
